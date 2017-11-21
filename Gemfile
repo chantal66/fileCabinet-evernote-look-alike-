@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'haml', '~> 4.0', '>= 4.0.5'
+gem 'haml', git: 'https://github.com/haml/haml'
 gem 'devise', '~> 4.3'
 gem 'simple_form', '~> 3.5'
 gem 'erubis', '~> 2.7'
